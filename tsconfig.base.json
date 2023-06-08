@@ -14,7 +14,15 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@myorg/": ["packages/common-ui/src/index.ts"],
+      "@myorg/apps/server": ["apps/server/src/index.ts"],
+      "@myorg/common-utils": ["packages/common-utils/src/index.ts"],
+      "@myorg/entity": ["packages/entity/src/index.ts"],
+      "@myorg/is-even": ["packages/is-even/src/index.ts"],
+      "@myorg/is-odd": ["packages/is-odd/src/index.ts"],
+      "@myorg/react-form-ui": ["packages/react-form-ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
