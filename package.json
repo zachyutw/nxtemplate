@@ -1,6 +1,6 @@
 {
   "name": "@nxtemplate/source",
-  "version": "0.1.1",
+  "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "generate:library": "nx generate @nx/$npm_config_type:library $npm_config_name --publishable --importPath @nxtemplate/$npm_config_name",
